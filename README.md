@@ -6,7 +6,7 @@ This is a offline, crytographically secure pseudo-random number generator [(CSPR
 
 ### Before installing
 
-You need [Go](https://golang.org) in order to install this generator. Check out here [https://golang.org/doc/code.html#GOPATH](https://golang.org/doc/code.html#GOPATH)
+You need [Go](https://golang.org) in order to install this generator. Check out here [https://golang.org/doc/install](https://golang.org/doc/install)
 
 
 ### Install
