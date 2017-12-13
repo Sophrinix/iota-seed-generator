@@ -22,7 +22,7 @@ func GenerateRandomInt(max int64) (int64, error) {
 func GenerateRandomSeed() (string, error) {
 	seed := make([]byte, SeedLength)
 	for i := 0; i < SeedLength; i++ {
-		n, err := GenerateRandomInt(int64(len(SeedCharset) - 1))
+		n, err := GenerateRandomInt(int64(len(SeedCharset)))
 		if err != nil {
 			return string([]byte{}), err
 		}
